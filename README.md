@@ -1,9 +1,9 @@
 <p align="center">
-  <img alt="Coding" width="300" src="https://github.com/user-attachments/assets/e6bf1759-d724-43bd-a1cf-a3029ba75768" >
+  <img alt="Coding" width="400" src="https://github.com/user-attachments/assets/e6bf1759-d724-43bd-a1cf-a3029ba75768" >
 </p>
 
 
-### Current Version : https://aihub-assestment.vercel.app/
+### Current Version :
 
 ### Just a landing page to show case my frontend dev skills 
 
