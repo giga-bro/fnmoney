@@ -1,9 +1,10 @@
 import React from 'react'
+import Home from './components/Home/Home'
 
-const App = () => {
+const App:React.FC = () => {
   return (
     <>
-    
+    <Home/>
     </>
   )
 }
