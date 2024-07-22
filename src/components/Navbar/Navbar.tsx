@@ -23,7 +23,7 @@ const Navbar: React.FC = () => {
                 <div className='nav-item hidden md:w-[20%] h-[100%] md:flex flex-col justify-center items-center cursor-pointer lg:w-[10%]   '>
                     <p className='md:text-xl font-bold text-white lg:text-2xl'>About</p>
                 </div>
-                <div className='nav-item hidden lg:w-[25%] h-[100%] md:hidden flex-col justify-center items-center cursor-pointer  lg:flex '>
+                <div className='nav-item hidden lg:w-[30%] h-[100%] md:hidden flex-col justify-center items-center cursor-pointer  lg:flex '>
                     <p className='md:text-xl font-bold text-white lg:text-3xl'>Full Intership Assesment</p>
                 </div>
                 <div className='nav-item hidden md:w-[20%] h-[100%] md:flex flex-col justify-center items-center cursor-pointer'>
