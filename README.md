@@ -1,30 +1,31 @@
-# React + TypeScript + Vite
+<p align="center">
+  <img alt="Coding" width="400" src="https://github.com/user-attachments/assets/e6bf1759-d724-43bd-a1cf-a3029ba75768" >
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+### Current Version :
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Just a landing page to show case my frontend dev skills 
 
-## Expanding the ESLint configuration
+### Tech Stack Used : 
+<img alt="Coding" align="center" width="400" src="https://github.com/user-attachments/assets/96010a32-d44a-4ff9-839e-b5772eb836e4" >
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
+### UI ScreenShots
+![image](https://github.com/user-attachments/assets/e7b9355c-87c5-4cfb-ae08-be59ac6721e8)
+![image](https://github.com/user-attachments/assets/0dbe6d35-54d7-4577-a172-18a685de87c3)
+![image](https://github.com/user-attachments/assets/16331657-e233-4d6b-91dc-64c7f9154ec8)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+
+
+### Installation :
+Open the terminal and enter the following commands : 
+```bash
+   git clone https://github.com/Aditya-Sakpal/fnmoney.git
 ```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+```bash
+   npm i 
+```
+```bash
+   npm run dev
+```
