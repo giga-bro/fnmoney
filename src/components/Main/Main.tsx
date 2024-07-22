@@ -18,7 +18,7 @@ const Main:React.FC = () => {
             </div>
         </div>
 
-        <div className='w-[100%] h-[30%] bg-[#2c2f3d] mt-[2%] opacity-90 overflow-x-scroll flex justify-start items-center lg:justify-center lg:overflow-x-hidden lg:w-[100%]  ' >
+        <div className='w-[100%] h-[30%] bg-[#2c2f3d] mt-[2%] opacity-90 overflow-x-scroll flex justify-start items-center lg:justify-center lg:overflow-x-hidden lg:w-[100%] lg:p-[2%]  ' >
             <div className='w-40 min-w-40 bg-[#181c2a] h-[90%] mx-[2%] rounded-md flex flex-col justify-start items-center pb-[4%]  lg:w-[10%] lg:h-[90%] lg:pb-[1%] lg:mx-[1%] ' >
                 <p className='text-white font-bold text-xl text-center text-wrap lg:text-2xl lg:h-[20%] ' >Coding Challenge</p>
                 <p className='text-white font-thin text-xs text-center text-wrap mt-auto lg:text-sm ' >Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
