@@ -3,7 +3,7 @@ import React from 'react'
 const Main:React.FC = () => {
   return (
     <>
-    <div className="w-[100vw] h-[90vh] bg-[url('background.jpg')] bg-cover bg-center bg-no-repeat flex flex-col justify-center items-center " >
+    <div className="w-[100vw] h-[90vh] bg-[url(`background.jpg`)] bg-cover bg-center bg-no-repeat flex flex-col justify-center items-center " >
         <div className='  w-[90%] h-[60%] bg-[#171926] md:opacity-95 md:w-[40%] lg:w-[20%] lg:h-[60%] rounded-2xl ' >
             <div className='w-[100%] h-[60%]   text-wrap flex flex-col justify-center items-center ' >
                 <p className='text-wrap text-2xl text-center text-white font-bold w-[100%] lg:text-4xl  ' >Welcome To</p>
