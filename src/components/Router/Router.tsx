@@ -8,8 +8,8 @@ const Router: React.FC = () => {
     return (
         <>
             <Routes>
-                <Route path='/fnmoney/home' element={<Home />} />
-                <Route path='/fnmoney' element={<Auth />} />
+                <Route path='/home' element={<Home />} />
+                <Route path='/' element={<Auth />} />
             </Routes>
         </>
     )
