@@ -3,6 +3,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import HomeIcon from '@mui/icons-material/Home';
 import InfoIcon from '@mui/icons-material/Info';
 import './index.css';
+import { Link } from "react-router-dom";
 
 const Navbar: React.FC = () => {
     const [showMobileMenu, setShowMobileMenu] = useState<boolean>(false);
@@ -24,7 +25,7 @@ const Navbar: React.FC = () => {
                     <p className='md:text-xl font-bold text-white lg:text-2xl'>About</p>
                 </div>
                 <div className='nav-item hidden lg:w-[25%] h-[100%] md:hidden flex-col justify-center items-center cursor-pointer  lg:flex '>
-                    <p className='md:text-xl font-bold text-white lg:text-4xl'>Full Intership Assesment</p>
+                    <p className='md:text-xl font-bold text-white lg:text-3xl'>Full Intership Assesment</p>
                 </div>
                 <div className='nav-item hidden md:w-[20%] h-[100%] md:flex flex-col justify-center items-center cursor-pointer'>
                     <button className='border border-[#626e8c] rounded-full w-[80%] h-[60%] text-white flex justify-center items-center text-center font-semibold ' >
@@ -33,7 +34,9 @@ const Navbar: React.FC = () => {
                 </div>
                 <div className='nav-item hidden md:w-[20%] h-[100%] md:flex flex-col justify-center items-center cursor-pointer'>
                     <button className='bg-[#f8463a] rounded-full font-bold text:lg w-[90%] h-[60%] text-white flex justify-center items-center text-center ' >
-                        Get Started
+                        <Link to="/auth" >
+                            Get Started
+                        </Link>
                     </button>
                 </div>
                 <div className='w-[30%] h-[100%]   flex justify-center items-center md:hidden ' >
@@ -57,7 +60,9 @@ const Navbar: React.FC = () => {
                 </div>
                 <div className='w-[100%] flex-1 flex justify-center items-center rounded-bl-2xl'>
                     <button className='bg-[#f8463a] rounded-full font-bold w-[80%] h-[60%] text-white ' >
-                        Get Started
+                        <Link to="/auth" >
+                            Get Started
+                        </Link>
                     </button>
                 </div>
             </div>
