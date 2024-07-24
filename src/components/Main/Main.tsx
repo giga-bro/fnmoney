@@ -141,11 +141,11 @@ const Main: React.FC = () => {
             <div className="w-[100vw] z-10 h-[90vh] bg-[url('/background.jpg')] bg-cover bg-center bg-no-repeat flex flex-col justify-center items-center  " >
                 <div className='  w-[90%] z-10 h-[65%] bg-[#171926] md:opacity-95 md:w-[40%] lg:w-[20%] lg:h-[60%] rounded-2xl ' >
                     <div className=' z-9 w-[100%] h-[60%]   text-wrap flex flex-col justify-center items-center ' >
-                        <p className='text-wrap text-2xl text-center text-white font-bold w-[100%] lg:text-4xl  ' >Welcome To</p>
-                        <p className='text-wrap text-4xl text-center text-white font-bold w-[100%] lg:text-6xl ' >FNAXIOM</p>
-                        <p className='text-wrap text-3xl text-center text-white font-bold w-[100%] lg:text-5xl  ' >Full Stack</p>
-                        <p className='text-wrap text-3xl text-center text-white font-bold w-[100%] lg:text-5xl ' >Intership</p>
-                        <p className='text-wrap text-3xl text-center text-white font-bold w-[100%] lg:text-5xl ' >Assesment</p>
+                        <p className='text-wrap text-2xl text-center text-white font-bold w-[100%] lg:text-3xl  ' >Welcome To</p>
+                        <p className='text-wrap text-4xl text-center text-white font-bold w-[100%] lg:text-5xl ' >FNAXIOM</p>
+                        <p className='text-wrap text-3xl text-center text-white font-bold w-[100%] lg:text-4xl  ' >Full Stack</p>
+                        <p className='text-wrap text-3xl text-center text-white font-bold w-[100%] lg:text-4xl ' >Intership</p>
+                        <p className='text-wrap text-3xl text-center text-white font-bold w-[100%] lg:text-4xl ' >Assesment</p>
                     </div>
                     <div className='w-[100%] h-[40%] flex flex-col justify-between items-center  py-[5%] ' >
                         <input type="text" className='w-[80%] h-[25%] rounded-full my-[2%] text-center ' value={title} placeholder='Enter title' onChange={(e) => setTitle(e.target.value)} />

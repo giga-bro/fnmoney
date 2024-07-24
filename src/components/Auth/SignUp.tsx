@@ -60,7 +60,7 @@ const SignUp: React.FC = () => {
                 localStorage.setItem('username', username)
                 localStorage.setItem('userId', res.data.userId)
                 setLoading(false)
-                navigate('/fnmoney/home');
+                navigate('/home');
             } else if (res.status === 400) {
                 Swal.fire({
                     icon: "error",
