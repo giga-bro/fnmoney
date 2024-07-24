@@ -93,16 +93,6 @@ const Main: React.FC = () => {
         
     }
 
-    const [updatePopUp, setUpdatePopUp] = useState<boolean>(false)
-    const [taskId, setTaskId] = useState<string>('')
-    const [updateTitle, setUpdateTitle] = useState<string>('')
-    const [updateDescription, setUpdateDescription] = useState<string>('')
-    const openTaskPopUp = (id: string) => {
-        setUpdatePopUp(true)
-        setTaskId(id)
-    }
-
-
     const openDeleteTaskPopUp = async (id: string) => {
         Swal.fire({
             title: 'Are you sure?',
