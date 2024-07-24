@@ -3,7 +3,7 @@
 </p>
 
 
-### Current Version :
+### Current Version : https://fnmoney-eight.vercel.app/
 
 ### Just a landing page to show case my frontend dev skills 
 
