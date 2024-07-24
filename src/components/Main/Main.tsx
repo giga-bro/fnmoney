@@ -1,9 +1,8 @@
+//ts-nocheck
 import React, { useState, useEffect } from 'react'
 import './index.css'
 import Swal from 'sweetalert2'
 import axios from 'axios'
-// import Auth from '../Auth/Auth'
-
 
 const Main: React.FC = () => {
 
